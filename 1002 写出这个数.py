@@ -22,27 +22,22 @@
 #            │ ─┤ ─┤       │ ─┤ ─┤
 #            └──┴──┘       └──┴──┘
 #                神兽保佑
-#
-i=0
-def fun(n):
-    global i
-
-    if(n%2==0):
-        n=n/2
-        fun(n)
-
-        return i+1
-
-    elif (n%2!=0 and n!=1):
-        n=(3*n+1)/2
-        fun(n)
-        return i+1
-    elif (n==1):
-        return i+1
-
-s=fun(10)
-print(s)
-
-# 呵呵
-
-
+#                BUG是不可能有BUG的!
+dic = ['ling','yi','er','san','si','wu','liu','qi','ba','jiu']
+n = int(input())
+sum = 0
+list = []
+while(n != 0):
+    r = n % 10
+    sum = sum + r
+    n = int(n // 10)
+while(sum != 0):
+    r = dic[sum % 10]
+    list.append(r)
+    sum = int(sum // 10)
+list.reverse()
+str = ''
+for i in list:
+    str = str + ' '+ i
+result = str.strip()
+print(result)
