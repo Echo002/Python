@@ -43,4 +43,6 @@ def fun(n):
 s=fun(10)
 print(s)
 
+# 呵呵
+
 
