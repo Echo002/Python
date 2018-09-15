@@ -23,29 +23,29 @@
 #            └──┴──┘       └──┴──┘
 #                神兽保佑
 #                BUG是不可能有BUG的!
-num = int(input())
-source = input()
-deal = []
-data = []
-result_1 = []
-result_2 = ''
-source = source.split(" ")
-for i in range(0 , num):
-    deal.append(int(source[i]))
-for j in deal:
-    while(j != 1):
-        if(j % 2 == 0):
-            j = j / 2
-        else:
-            j = (3 * j + 1) / 2
-        if int(j) not in data:
-            data.append(int(j))
-        continue
-for k in deal:
-    if(k not in data):
-        result_1.append(int(k))
-result_1.sort(reverse=True)
-for m in result_1:
-    result_2 = result_2 + ' ' + str(m)
-result_2 = result_2.strip()
-print(result_2)
+def text1(a):
+    if (a % 2 == 0):
+        a = a / 2
+    elif (a % 2 != 0):
+        a = (3 * a + 1) / 2
+    return a
+
+
+n = input()
+m = input().split()
+for i in range(len(m)):
+    m[i] = int(m[i])
+result = m[0:len(m)]
+for i in m:
+    a = i
+    while a > 1:
+        a = text1(a)
+        if (a in result):
+            result.remove(a)
+result.sort(reverse=True)
+if (len(result) == 1):
+    print(result[0], end='')
+else:
+    for i in range(len(result) - 1):
+        print(result[i], end=' ')
+    print(result[i + 1], end='')
