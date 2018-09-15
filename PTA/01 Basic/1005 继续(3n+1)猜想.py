@@ -23,13 +23,26 @@
 #            └──┴──┘       └──┴──┘
 #                神兽保佑
 #                BUG是不可能有BUG的!
-n = int(input())
-count = 0
-while(n != 1):
-    if(n % 2 == 0):
-        n = n / 2
-    else:
-        n = (3 * n + 1) / 2
-    count += 1
-    continue
-print(count)
+num = int(input())
+source = input()
+deal = []
+data = []
+result = ''
+source = source.split(" ")
+for i in range(0 , num):
+    deal.append(int(source[i]))
+
+for j in deal:
+    while(j != 1):
+        if(j % 2 == 0):
+            j = j / 2
+        else:
+            j = (3 * j + 1) / 2
+        if int(j) not in data:
+            data.append(int(j))
+        continue
+for k in deal:
+    if(k not in data):
+        result = result + ' ' + str(k)
+result = result.strip()
+print(result)
