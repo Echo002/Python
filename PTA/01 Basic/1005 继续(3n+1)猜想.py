@@ -42,7 +42,7 @@ for j in deal:
             data.append(int(j))
         continue
 for k in deal:
-    if(k not in data):
+    if k not in data:
         result_1.append(int(k))
 result_1.sort(reverse=True)
 for m in result_1:

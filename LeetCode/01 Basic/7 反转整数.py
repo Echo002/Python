@@ -30,21 +30,21 @@ class Solution:
         :rtype: int
         """
         sum = 0
-        if(x >= 0):
-            while(x != 0):
+        if x >= 0:
+            while x != 0:
                 r = x % 10
                 sum = sum * 10 + r
                 x = x // 10
-                if(sum > 2**31-1):
+                if sum > 2**31-1:
                     return 0
             return sum
         else:
             x = -x
-            while (x != 0):
+            while x != 0:
                 r = x % 10
                 sum = sum * 10 + r
                 x = x // 10
-                if (sum > 2 ** 31):
+                if sum > 2 ** 31:
                     return 0
             return -sum
 # 以下是测试代码

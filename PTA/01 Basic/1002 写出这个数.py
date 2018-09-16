@@ -27,11 +27,11 @@ dic = ['ling','yi','er','san','si','wu','liu','qi','ba','jiu']
 n = int(input())
 sum = 0
 list = []
-while(n != 0):
+while n != 0:
     r = n % 10
     sum = sum + r
     n = int(n // 10)
-while(sum != 0):
+while sum != 0:
     r = dic[sum % 10]
     list.append(r)
     sum = int(sum // 10)

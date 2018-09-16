@@ -30,11 +30,11 @@ class Solution:
         :rtype: bool
         """
         x = str(x)
-        if(x.startswith('-')):
+        if x.startswith('-'):
             return False
         for i in range(0 , len(x)//2):
             #print(x[i] , x[-(i+1)])
-            if(x[i] != x[-(i+1)]):
+            if x[i] != x[-(i+1)]:
                 return False
         return True
 

@@ -40,9 +40,9 @@ for i in range(0 , num):
     No.append(r[1])
     Grade.append(int(r[2]))
 for i in range(0 , num):
-    if(Grade[max] < Grade[i]):
+    if Grade[max] < Grade[i]:
         max = i
-    if(Grade[min] > Grade[i]):
+    if Grade[min] > Grade[i]:
         min = i
 print(Name[max] + " " + No[max])
 print(Name[min] + " " + No[min])
