@@ -28,7 +28,6 @@ str2 = input()
 deal_1 = str1.split()
 deal_e = str2.split()
 deal_2 = []
-str = ''
 num = int(deal_1[0])
 step = int(deal_1[1])
 for i in deal_e:
@@ -38,6 +37,9 @@ for i in range(step):
     for j in range(0,num-1):
         deal_2[num - 1 - j] = deal_2[num -2 -j]
     deal_2[0] = temp
-#print(deal_2)
-result = [str(x) for x in deal_2]
-print(result)
+print(deal_2)
+for i in range(len(deal_2)):
+    deal_2[i] = str(deal_2[i])
+print(deal_2)
+#result = [str(x) for x in deal_2]
+print(' '.join(deal_2))
