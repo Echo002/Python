@@ -23,5 +23,5 @@
 #            └──┴──┘       └──┴──┘
 #                神兽保佑
 #                BUG是不可能有BUG的!
-for i in range(10):
-    print(i)
+dic = {'a':'1','b':'2','c':'1'}
+print(dic.get('a'))

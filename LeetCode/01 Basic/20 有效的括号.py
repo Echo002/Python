@@ -33,4 +33,20 @@ class Solution:
         dic = {'(':')' , '[':']' , '{':'}'}
         stack = []                          # 使用栈
         for i in s:
-            if
+            if i in dic.keys():
+                stack.append(i)
+            elif i in dic.values():
+                if len(stack) == 0 or dic.get(stack[-1]) != i:
+                    return False
+                else:
+                    stack.pop()
+        if len(stack) == 0:
+            return True
+        else:
+            return False
+
+# 以下是测试代码：
+s = "()"
+s1 = Solution()
+s = s1.isValid(s)
+print(s)
