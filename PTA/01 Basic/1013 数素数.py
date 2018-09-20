@@ -33,18 +33,18 @@ def prime(num):
     return True
 
 lst = input().split()
-con = 0
+count = 0
 start, stop = int(lst[0]), int(lst[1])
-con2 = 1
+line_count = 1
 num = 1
-while con < stop:
+while count < stop:
     num += 1
     if prime(num):
-        con += 1
-        if con >= start:
-            if con2 == 10 or con == stop:
+        count += 1
+        if count >= start:
+            if line_count == 10 or count == stop:
                 print(num)
-                con2 = 1
+                line_count = 1
             else:
                 print(num, end=" ")
-                con2 += 1
+                line_count += 1
