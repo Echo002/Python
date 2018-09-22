@@ -28,11 +28,11 @@ count = 1
 num = int(input())
 for i in range(num):
     list = input().split()
-    for i in range(len(list)):
-        list[i] = int(list[i])
+    for j in range(len(list)):
+        list[j] = float(list[j])
     deal.append(list)
 for i in deal:
-    if i[2] > i[0] + i[1]:
+    if i[0] + i[1] > i[2]:
         print("Case #"+ str(count) + ": true")
     else:
         print("Case #"+ str(count) + ": false")
