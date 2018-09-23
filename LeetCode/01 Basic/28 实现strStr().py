@@ -32,8 +32,6 @@ class Solution:
         :rtype: int
         """
         print(needle[0])
-        if 'l' in haystack:
-            print("ok")
 
 # 以下是测试代码：
 s1 = "hello"
