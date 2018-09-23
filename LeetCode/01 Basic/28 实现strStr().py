@@ -31,7 +31,9 @@ class Solution:
         :type needle: str
         :rtype: int
         """
-        print(needle[0])
+        check = needle.split()
+        if haystack.find(check[0]) != 0:
+            print("还是有的")
 
 # 以下是测试代码：
 s1 = "hello"
