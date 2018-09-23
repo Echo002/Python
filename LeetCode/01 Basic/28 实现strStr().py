@@ -32,7 +32,7 @@ class Solution:
         :rtype: int
         """
         check = needle.split()
-        #haystack.find(check[0])
+        haystack.find(check[0])
         print("还是有的")
 
 # 以下是测试代码：
