@@ -32,12 +32,13 @@ class Solution:
         :rtype: int
         """
         check = needle.split()
-        if haystack.find(check[0]) != 0:
-            print("还是有的")
+        #haystack.find(check[0])
+        print("还是有的")
 
 # 以下是测试代码：
 s1 = "hello"
 s2 = "ll"
+print(s1.find('l'))
 s1 = Solution()
 s = s1.strStr(s1,s2)
 print(s)
