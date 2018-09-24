@@ -31,14 +31,13 @@ class Solution:
         :type needle: str
         :rtype: int
         """
-        check = needle.split()
-        haystack.find(check[0])
-        print("还是有的")
+        #print(check[0])
+        count = haystack.find(needle)
+        return count
 
 # 以下是测试代码：
 s1 = "hello"
-s2 = "ll"
-print(s1.find('l'))
-s1 = Solution()
-s = s1.strStr(s1,s2)
+s2 = "avsd"
+s = Solution()
+s = s.strStr(s1,s2)
 print(s)
