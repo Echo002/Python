@@ -23,3 +23,6 @@
 #            └──┴──┘       └──┴──┘
 #                神兽保佑
 #                BUG是不可能有BUG的!
+
+#class Stack(object):
+
