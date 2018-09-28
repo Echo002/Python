@@ -42,8 +42,6 @@ class Solution(object):
             if result >= 2**31-1:
                 return 2**31-1
             return result
-
-
         result = len(range(divisor, dividend, divisor))
         if (result+1) * divisor == dividend:
             result += 1
