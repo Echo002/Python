@@ -10,7 +10,7 @@ I use python
 ## 学习内容
 
 1. 传智播客数据结构课程（python语言实现）
-2. 平时多积累python语言编程技巧与常用算法（简书、CSDN、博客园文章收录）
+2. 平时多积累python语言编程技巧与常用算法（简书、CSDN、博客园文章收录或课程）
 3. python基础课程（网易云课堂）
 4. LeetCode算法题（Basic Advance Top三个等级，当前进度：basic）
 5. PAT算法题（Basic Advance Top三个等级，当前进度：basic）
