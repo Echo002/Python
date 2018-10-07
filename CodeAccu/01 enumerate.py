@@ -29,8 +29,9 @@
 
 arr = [5,3,2,8,1,4]
 def sort_arr(arr):
-    odd_index = [ind for (ind,val) in enumerate(arr) if val % 2 == 1]
+    odd_index = [ind for (ind,val) in enumerate(arr) if val%2 == 1]
     sorted_odd = sorted([odd for odd in arr if odd % 2 ==1])
+    #odds = [x if x%2 == 0 else 0 for x in arr]
     j = 0
     for i in odd_index:
         arr[i] = sorted_odd[j]
@@ -63,5 +64,5 @@ for循环使用enumerate：
 1 two
 2 three
 
-在创建列表中 先写for再写if（参考32、33行）
+在创建列表时 如果if还带有else则需要将if写在for的前面（参考34、33行）
 '''
