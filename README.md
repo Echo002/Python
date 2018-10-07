@@ -50,4 +50,8 @@ I use python
 * 2018.10.5
     1. 第二项
         - 8天深入理解python教程——python调用C/C++
+        
+* 2018.10.7
+    1. 第二项
+        - python调用C++lib库的方法
 	
