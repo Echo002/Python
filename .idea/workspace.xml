@@ -4,6 +4,7 @@
     <list default="true" id="bf8999f8-53ab-47e9-9661-62dad2827555" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +22,12 @@
         <counts>
           <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,9 +77,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
               <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-              <folding>
-                <marker date="1538317634733" expanded="true" signature="964:969" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -276,9 +275,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -344,19 +342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-          <folding>
-            <marker date="1538317634733" expanded="true" signature="964:969" ph="..." />
-            <marker date="1538317634733" expanded="true" signature="969:1478" ph="..." />
-            <marker date="1538317634733" expanded="true" signature="1093:1098" ph="..." />
-            <marker date="1538317634733" expanded="true" signature="1127:1159" ph="..." />
-            <marker date="1538317634733" expanded="true" signature="1178:1197" ph="..." />
-            <marker date="1538317634733" expanded="true" signature="1214:1233" ph="..." />
-            <marker date="1538317634733" expanded="true" signature="1250:1269" ph="..." />
-            <marker date="1538317634733" expanded="true" signature="1289:1308" ph="..." />
-            <marker date="1538317634733" expanded="true" signature="1331:1350" ph="..." />
-            <marker date="1538317634733" expanded="true" signature="1378:1397" ph="..." />
-            <marker date="1538317634733" expanded="true" signature="1420:1439" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
