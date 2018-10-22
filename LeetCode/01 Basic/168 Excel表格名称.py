@@ -29,21 +29,25 @@ class Solution:
         :type n: int
         :rtype: str
         """
-        dic = {1:'A', 2:'B', 3:'C',4:'D',5:'E',6:'E',7:'G',8:'H',
-               9: 'I',10:'J',11:'K',12:'L',13:'M',14:'N',15:'O',16:'P',
-               17: 'Q',18:'R',19:'S',20:'T',21:'U',22:'v',23:'w',24:'x',
-               25: 'Y',0:'Z',}
-        count = 0
+        assert n > 0
+        n = n - 1
         result = []
-        while(n != 0):
-            r = n % 26
-            result.insert(0,dic[r])
-            n -= r * pow(26, count)
-            count += 1
-        return result
+        result_str = ''
+        if n == 0:
+            return 'A'
+        while n > 0:
+            temp = n % 26
+            n = (n // 26) - 1
+            result.append(temp)
+        if n >= 0:
+            result.append(n)
+        result.reverse()
+        for item in result:
+            result_str += chr(ord('A') + item)
+        return result_str
 
 # 以下是测试代码：
-x = 45
+x = 701
 s = Solution()
 result = s.convertToTitle(x)
 print(result)
