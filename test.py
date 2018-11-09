@@ -33,5 +33,3 @@
 密码aaa456123
 '''
 
-for i in range(len(data)):
-    print(data[i])
