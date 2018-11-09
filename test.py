@@ -14,5 +14,4 @@ def red_mysql_to_csv(filename):
         for res in results:
             print(res)
             write.writerow(res)
-
 red_mysql_to_csv('result.csv')
