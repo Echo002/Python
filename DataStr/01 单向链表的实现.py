@@ -63,8 +63,9 @@ class SingleLinkList(object):
         while cur != None:
             print(cur.elem, end=" ")
             cur = cur.next
+        print("\n", end='')
 
-    def add(self, item):
+    def add(self, item):                # 时间复杂度O(1)
         # 头插法
         node = Node(item)
         node.next = self.__head
@@ -82,7 +83,7 @@ class SingleLinkList(object):
             cur.next = node
 
     def insert(self, pos, item):
-        #指定位置添加元素 pos从0开始索引 pos是添加完成后的位置
+        # 指定位置添加元素 pos从0开始索引 pos是添加完成后的位置
         node = Node(item)
         pre = self.__head
         if pos <= 0:
@@ -97,10 +98,31 @@ class SingleLinkList(object):
             pre.next = node
 
     def remove(self, item):
-        pass
+        # 删除节点
+        cur = self.__head
+        pre = None
+        while cur != None:
+            if cur.elem == item:
+                if cur == self.__head:
+                    self.__head = cur.next
+                else:
+                    pre.next = cur.next
+                break
+            else:
+                pre = cur
+                cur = cur.next
+
 
     def search(self, item):
-        pass
+        cur = self.__head
+        if cur == None:
+            return False
+        while cur != None:          # 如果这里写成cur.next != None 则最后一个元素将会漏掉
+            if cur.elem == item:
+                return True
+            else:
+                cur = cur.next
+        return False
 
 if __name__ == "__main__":
     single_List = SingleLinkList()
@@ -117,10 +139,10 @@ if __name__ == "__main__":
     single_List.append(5)
     single_List.append(6)
     single_List.travel()
-    print('\n')
-
     single_List.insert(-1, 9) #98123456
     single_List.insert(2, 100)#981 100 123456
     single_List.insert(10, 200)# 981 100 23456 200
 
+    single_List.travel()
+    single_List.remove(5)
     single_List.travel()
