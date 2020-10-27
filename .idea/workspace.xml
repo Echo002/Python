@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="bf8999f8-53ab-47e9-9661-62dad2827555" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
+=======
+    <list default="true" id="bf8999f8-53ab-47e9-9661-62dad2827555" name="Default Changelist" comment="update" />
+    <list id="7b6ce2e0-d62a-44ac-937d-aa8a242f9c8e" name="Not Sys" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+>>>>>>> 5838183a8d5be6bd66052a91d4c6dc6c558b02a9
       <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -17,11 +23,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Python$1018_.coverage" NAME="1018 锤子剪刀布 Coverage Results" MODIFIED="1540479135849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PTA/01 Basic" />
     <SUITE FILE_PATH="coverage/Python$28_strStr__.coverage" NAME="28 实现strStr() Coverage Results" MODIFIED="1537715799744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/01 Basic" />
+    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1540987214373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$168_Excel.coverage" NAME="168 Excel表格名称 Coverage Results" MODIFIED="1540218613299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/01 Basic" />
     <SUITE FILE_PATH="coverage/Python$1015___.coverage" NAME="1015 德才论(未解决) Coverage Results" MODIFIED="1540473759020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PTA/01 Basic" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1540987214373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
+    <SUITE FILE_PATH="coverage/Python$1018_.coverage" NAME="1018 锤子剪刀布 Coverage Results" MODIFIED="1540479135849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PTA/01 Basic" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/02 Advance/02 两数相加.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 5838183a8d5be6bd66052a91d4c6dc6c558b02a9
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,7 +65,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1QfmNI0yEH0C2Wmr5MyygyyyCZS" />
+=======
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LeetCode/01 Basic/28 实现strStr().py" />
+        <option value="$PROJECT_DIR$/DataStr/test.py" />
+        <option value="$PROJECT_DIR$/LeetCode/02 Advance/29 两数相除.py" />
+        <option value="$PROJECT_DIR$/DataStr/01 单向链表的实现.py" />
+        <option value="$PROJECT_DIR$/PTA/01 Basic/1018 锤子剪刀布.py" />
+        <option value="$PROJECT_DIR$/CodeAccu/comprehensions.py" />
+        <option value="$PROJECT_DIR$/CodeAccu/1.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/02 Advance/02 两数相加.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="246" />
+    <option name="y" value="21" />
+    <option name="width" value="1400" />
+    <option name="height" value="993" />
+  </component>
+>>>>>>> 5838183a8d5be6bd66052a91d4c6dc6c558b02a9
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -194,8 +251,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537628726197</updated>
+<<<<<<< HEAD
       <workItem from="1568169984305" duration="4876000" />
       <workItem from="1568196289151" duration="466000" />
+=======
+      <workItem from="1551833800568" duration="46000" />
+>>>>>>> 5838183a8d5be6bd66052a91d4c6dc6c558b02a9
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1537628956081</created>
@@ -305,6 +366,7 @@
     <option name="localTasksCounter" value="16" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -319,14 +381,124 @@
       </map>
     </option>
   </component>
+=======
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16364606" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.4978678" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+>>>>>>> 5838183a8d5be6bd66052a91d4c6dc6c558b02a9
   <component name="VcsManagerConfiguration">
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="Merge branch 'master' of github.com:Echo002/Python&#10;&#10;# Conflicts:&#10;#&#9;.idea/Python.iml&#10;#&#9;.idea/misc.xml" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
+<<<<<<< HEAD
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1568196568185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1568170844513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PTA/01 Basic/1013 数素数.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/01 Basic/28 实现strStr().py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStr/test.py" />
+    <entry file="file://$PROJECT_DIR$/LeetCode/02 Advance/29 两数相除.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStr/01 单向链表的实现.py" />
+    <entry file="file://$PROJECT_DIR$/CodeAccu/01 enumerate.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeAccu/02 in.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PTA/01 Basic/1018 锤子剪刀布.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PTA/01 Basic/1015 德才论(未解决).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/01 Basic/168 Excel表格名称.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeAccu/comprehensions.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/02 Advance/02 两数相加.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 5838183a8d5be6bd66052a91d4c6dc6c558b02a9
   </component>
 </project>
