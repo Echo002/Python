@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 打印某字符串的所有子序列
 # str = 'ABCD'
 # i = 0
@@ -51,7 +50,3 @@ print(row)
 cursor.close()
 connect.commit()
 connect.close()
-=======
-a = [None]*(n+1)
-a[0] = 1
->>>>>>> 5838183a8d5be6bd66052a91d4c6dc6c558b02a9
