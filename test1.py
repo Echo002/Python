@@ -1,11 +1,10 @@
-strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
-if(len(strs) < 2):
-    print([strs])
-result = {}
-for s in strs:
-    temp = ''.join(sorted(s))
-    result[temp] = result.get(temp, []) + [s]
-r = []
-for w in result.values():
-    r.append(w)
-print(r)
+from selenium import webdriver
+import time
+
+driver = webdriver.Chrome()
+driver.get('https://www.baidu.com')
+driver.find_element_by_id('kw').send_keys('B站')
+driver.find_element_by_id('su').click()
+
+time.sleep(2)
+driver.find_element_by_xpath('//*[@id="1"]/h3/a[1]').click()
